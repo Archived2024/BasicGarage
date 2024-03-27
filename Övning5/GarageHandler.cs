@@ -29,7 +29,8 @@ namespace Övning5
             //List<IVehicle> output = new List<IVehicle>();
             //foreach (var vehicle in thisGarage)
             //{
-            //    if (vehicle != null) { 
+            //    if (vehicle != null)
+            //    {
             //        output.Add(vehicle);
             //    }
             //}
@@ -91,6 +92,7 @@ namespace Övning5
         }
         public void Filter(string typeQ, string typeS, int typeI)
         {
+
             if(query == null)
             {
                 InitFilter();

@@ -47,7 +47,7 @@ namespace Övning5
             {
                 return false;
             }
-            int firstEmpty = System.Array.IndexOf(spaces, null);
+            int firstEmpty = Array.IndexOf(spaces, null);
             spaces[firstEmpty] = input;
             current++;
             return true;
